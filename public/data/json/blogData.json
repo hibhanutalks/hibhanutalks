@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Discover the secret in Sahara desert",
+        "category": "Category 1",
+        "image": "assets/img/latest/3.png",
+        "date": "Jan 1, 2024",
+        "excerpt": "This is a short excerpt for blog post 1."
+    },
+    {
+        "id": 2,
+        "title": "Economic policy between England & Scotland",
+        "category": "Category 2",
+        "image": "assets/img/latest/4.png",
+        "date": "Feb 1, 2024",
+        "excerpt": "This is a short excerpt for blog post 2."
+    },
+    {
+        "id": 3,
+        "title": "Economic policy between England & Scotland",
+        "category": "Category 2",
+        "image": "assets/img/latest/4.png",
+        "date": "Feb 1, 2024",
+        "excerpt": "This is a short excerpt for blog post 2."
+    },
+    {
+        "id": 4,
+        "title": "Economic policy between England & Scotland",
+        "category": "Category 2",
+        "image": "assets/img/latest/4.png",
+        "date": "Feb 1, 2024",
+        "excerpt": "This is a short excerpt for blog post 2."
+    },
+    {
+        "id": 5,
+        "title": "Economic policy between England & Scotland",
+        "category": "Category 2",
+        "image": "assets/img/latest/4.png",
+        "date": "Feb 1, 2024",
+        "excerpt": "This is a short excerpt for blog post 2."
+    },
+    {
+        "id": 6,
+        "title": "Economic policy between England & Scotland",
+        "category": "Category 2",
+        "image": "assets/img/latest/4.png",
+        "date": "Feb 1, 2024",
+        "excerpt": "This is a short excerpt for blog post 2."
+    }
+]

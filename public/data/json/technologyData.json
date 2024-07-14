@@ -1,0 +1,29 @@
+{
+    "main": {
+      "image": "assets/img/technology/1.png",
+      "link": "page-single-post-creative.html",
+      "title": "Myenergi's award winning product the zappi EV charger",
+      "date": "Dec 14, 2022",
+      "author": "Admin",
+      "comments": "55 Comments"
+    },
+    "items": [
+      {
+        "image": "assets/img/technology/2.png",
+        "link": "page-single-post-creative.html",
+        "category": "technology",
+        "title": "Big Title for featured post with double line and more text",
+        "date": "Dec 14, 2022",
+        "author": "Admin",
+        "comments": "55 Comments"
+      },
+      {
+        "image": "assets/img/technology/3.png",
+        "link": "page-single-post-creative.html",
+        "category": "Sponsored Content",
+        "title": "Oppoturnity become Lead of Backend Developer at Google Studio",
+        "comments": "totalworks.com"
+      }
+    ]
+  }
+  

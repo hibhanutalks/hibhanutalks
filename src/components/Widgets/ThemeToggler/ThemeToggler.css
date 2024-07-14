@@ -1,0 +1,30 @@
+/* ThemeToggler.css */
+.theme-toggler {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .darkLight-btn {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 24px;
+    padding: 8px;
+    transition: color 0.3s;
+  }
+  
+  .icon.active {
+    color: #333;
+  }
+  
+  #light-icon.active {
+    color: #f0c330; /* Light theme color */
+  }
+  
+  #dark-icon.active {
+    color: #333; /* Dark theme color */
+  }
+  

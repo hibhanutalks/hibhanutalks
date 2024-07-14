@@ -1,0 +1,32 @@
+{
+    "section": {
+        "title": "Sport",
+        "link": "page-blog.html",
+        "posts": [
+            {
+                "image": "assets/img/another_news/1.png",
+                "alt": "Track and Field",
+                "category": "sport",
+                "title": "America's track and field team won the 2022 olympics?",
+                "description": "Crime rates on trains and buses are up in some of the nation’s biggest [...]",
+                "date": "Dec 14, 2022",
+                "comments": 7,
+                "postLink": "page-single-post-creative.html"
+            },
+            {
+                "image": "assets/img/another_news/2.png",
+                "alt": "American Football",
+                "category": "sport",
+                "title": "How’s Ameican Football Ball created out?",
+                "postLink": "page-single-post-creative.html"
+            },
+            {
+                "image": "assets/img/another_news/3.png",
+                "alt": "Ski Experience",
+                "category": "sport",
+                "title": "Daniel share experience ski on Everest",
+                "postLink": "page-single-post-creative.html"
+            }
+        ]
+    }
+}

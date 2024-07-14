@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import logoHome1 from '../../public/assets/img/logo_home1.png';
 import logoHome1Lt from '../../public/assets/img/logo_home1_lt.png';
+import DynamicDate from './DynamicDate';
+import ThemeToggler from './Widgets/ThemeToggler/ThemeToggler';
 
 const MiniHeader = () => {
   return (
@@ -16,8 +18,7 @@ const MiniHeader = () => {
                       <i className="la la-calendar"></i>
                     </div>
                     <div className="inf">
-                      <strong>Monday</strong>
-                      <p>Nov 25, 2023</p>
+                      <strong><DynamicDate /></strong>
                     </div>
                   </div>
                 </div>
@@ -51,14 +52,7 @@ const MiniHeader = () => {
                   </a>
                 </div>
                 <div className="col-6">
-                  <div className="darkLight-btn flex justify-end">
-                    <span className="icon active" id="light-icon">
-                      <i className="la la-sun"></i>
-                    </span>
-                    <span className="icon" id="dark-icon">
-                      <i className="la la-moon"></i>
-                    </span>
-                  </div>
+                      <ThemeToggler />
                 </div>
               </div>
               <div className="nav-subs-card">

@@ -1,0 +1,55 @@
+{
+    "popular": {
+      "slider": {
+        "image": "assets/img/videos/1.png",
+        "link": "page-single-post-features.html",
+        "title": "Amazing View! Catch the sunrise in high mountain",
+        "date": "Dec 24, 2022",
+        "views": "25.6K Views",
+        "videoLink": "https://youtu.be/pGbIOC83-So?t=21"
+      },
+      "sideVideos": [
+        {
+          "image": "assets/img/videos/1.png",
+          "link": "page-single-post-features.html",
+          "category": "travel, video",
+          "title": "Amazing View! Catch the sunrise in high mountain",
+          "videoLink": "https://youtu.be/pGbIOC83-So?t=21"
+        },
+        {
+          "image": "assets/img/videos/2.png",
+          "link": "page-single-post-features.html",
+          "category": "culture, video",
+          "title": "Bhutan! The happiest country on the world",
+          "videoLink": "https://youtu.be/pGbIOC83-So?t=21"
+        }
+      ]
+    },
+    "latest": {
+      "slider": {
+        "image": "assets/img/videos/1.png",
+        "link": "page-single-post-features.html",
+        "title": "Amazing View! Catch the sunrise in high mountain",
+        "date": "Dec 24, 2022",
+        "views": "25.6K Views",
+        "videoLink": "https://youtu.be/pGbIOC83-So?t=21"
+      },
+      "sideVideos": [
+        {
+          "image": "assets/img/videos/1.png",
+          "link": "page-single-post-features.html",
+          "category": "travel, video",
+          "title": "Amazing View! Catch the sunrise in high mountain",
+          "videoLink": "https://youtu.be/pGbIOC83-So?t=21"
+        },
+        {
+          "image": "assets/img/videos/2.png",
+          "link": "page-single-post-features.html",
+          "category": "culture, video",
+          "title": "Bhutan! The happiest country on the world",
+          "videoLink": "https://youtu.be/pGbIOC83-So?t=21"
+        }
+      ]
+    }
+  }
+  

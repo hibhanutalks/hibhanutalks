@@ -1,0 +1,27 @@
+{
+    "mainPost": {
+      "image": "assets/img/wid_popular/1.png",
+      "tags": ["business"],
+      "title": "Big Title for featured post with double",
+      "date": "Dec 14, 2022",
+      "comments": 55
+    },
+    "posts": [
+      {
+        "image": "assets/img/wid_popular/2.png",
+        "title": "Joe Biden did not participate in the war",
+        "link": "page-single-post-creative.html"
+      },
+      {
+        "image": "assets/img/wid_popular/3.png",
+        "title": "Mindset to Succesful, Become Lion King",
+        "link": "page-single-post-creative.html"
+      },
+      {
+        "image": "assets/img/wid_popular/4.png",
+        "title": "Experience ballon balls in Turkey",
+        "link": "page-single-post-creative.html"
+      }
+    ]
+  }
+  
