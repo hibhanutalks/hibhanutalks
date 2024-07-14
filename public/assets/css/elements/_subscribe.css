@@ -1,0 +1,32 @@
+/* ----------  subscribe style-1 ------------ */
+.tc-subscribe-style1 {
+  padding: 50px 0; }
+  .tc-subscribe-style1 .sub-info h5 {
+    font-size: 30px;
+    color: #000; }
+  .tc-subscribe-style1 .sub-form .form-group {
+    position: relative; }
+    .tc-subscribe-style1 .sub-form .form-group .form-control {
+      width: 100%;
+      height: 50px;
+      background-color: #fff;
+      border: 1px solid #9992;
+      border-radius: 3px;
+      padding: 0 90px 0 50px;
+      font-size: 14px; }
+    .tc-subscribe-style1 .sub-form .form-group .icon {
+      position: absolute;
+      bottom: 10px;
+      left: 15px;
+      z-index: 2;
+      font-size: 20px; }
+    .tc-subscribe-style1 .sub-form .form-group button {
+      position: absolute;
+      bottom: 14px;
+      right: 10px;
+      color: var(--color-main);
+      background: transparent;
+      border: 0;
+      font-weight: bold; }
+
+/* ----------  subscribe style-2 ------------ */

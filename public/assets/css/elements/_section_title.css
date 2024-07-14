@@ -1,0 +1,11 @@
+/* ----------  section-title-style2 ------------ */
+.section-title-style2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .section-title-style2 h3 {
+    font-size: 30px; }
+  .section-title-style2 .more {
+    text-transform: uppercase;
+    font-size: 14px;
+    text-transform: uppercase; }

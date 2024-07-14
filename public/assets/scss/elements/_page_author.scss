@@ -1,0 +1,90 @@
+/* ----------  author page style ------------ */
+.tc-author-page{
+
+    // ------------
+    .tc-author-header{
+        .content{
+            position: relative;
+            background-image: url(../img/about_page/header_back.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #000;
+                opacity: 0.7;
+            }
+
+            .title{
+                position: relative;
+                z-index: 10;
+                padding: 100px 0 130px;
+                text-align: center;
+                text-transform: capitalize;
+            }
+
+            .links{
+                position: relative;
+                z-index: 10;
+                padding: 20px 0;
+                text-align: center;
+                border-top: 1px solid #fff3;
+                .icon{
+                    margin: 0 35px;
+                }
+                a{
+                    color: #bcbcbc;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: #fff;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .tc-author-details{
+        padding-bottom: 100px;
+        .content{
+            text-align: center;
+            margin-top: -65px;
+
+            .author-img{
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                border: 5px solid #fff;
+                overflow: hidden;
+                box-shadow: 0 15px 20px #0001;
+                margin: auto auto 30px;
+            }
+
+            .social-links{
+                a{
+                    width: 45px;
+                    height: 45px;
+                    line-height: 45px;
+                    text-align: center;
+                    color: #000;
+                    border-radius: 50%;
+                    border: 1px solid #9993;
+                    margin: 0 5px;
+                    &:hover{
+                        background-color: var(--color-main);
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}

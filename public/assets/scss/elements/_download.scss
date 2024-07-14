@@ -1,0 +1,35 @@
+/* ----------  download style-1 ------------ */
+.tc-download-style1{
+    .content{
+        padding: 60px;
+        background-image: url(../img/download1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        .info{
+            .title{
+                font-size: 25px;
+                color: #000;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                display: block;
+            }
+
+            .text{
+                font-size: 14px;
+                color: #666;
+            }
+        }
+
+        .img{
+            text-align: center;
+            a{
+                display: block;
+                margin: 10px 0;
+                // width: 100%;
+                img{
+                    // width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+/* ----------  trends-news style-1 ------------ */
+.tc-trends-news-style1 .hot-trends-tabs-style1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+/* ----------  slider style-2 ------------ */

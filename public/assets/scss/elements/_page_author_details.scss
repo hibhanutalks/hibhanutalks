@@ -1,0 +1,36 @@
+/* ----------  blog author-details style ------------ */
+.tc-author-details{
+    ::selection {
+        color: #fff;
+        background: var(--color-main);
+    }
+
+    .widgets{
+        .search-form{
+            .form-group{
+                position: relative;
+                display: flex;
+                border: 1px solid #9995;
+                padding: 10px 15px;
+                margin-top: 10px;
+
+                input{
+                    border: 0;
+                    background: transparent;
+                    width: 100%;
+
+                    &::placeholder{
+                        text-transform: capitalize;
+                    }
+                }
+
+                button{
+                    border: 0;
+                    background: transparent;
+                    flex-shrink: 0;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

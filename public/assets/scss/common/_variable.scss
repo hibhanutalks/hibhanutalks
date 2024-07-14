@@ -1,0 +1,237 @@
+
+
+/* --------------- variable --------------- */
+:root{
+    --color-main:#ed3410 !important; 
+    --color-blue1:#461cfb !important;
+    --color-blue2:#133259 !important;
+    --color-blue3:#061135 !important;
+    --color-orange1:#ff6000 !important;
+    --color-creamy1:#f8d6a5 !important;
+    --color-darkGray:#3c5c6e !important;
+    --bg-gray1: #eceff2 !important;
+    --bg-gray2: #fdf6f5 !important;
+    --bg-gray3: #f6f2f0 !important;
+    --bg-gray4: #e5e9ec !important;
+    --bg-dark1: #161225 !important;
+}
+  
+// ------------------ colors -------------------
+
+
+.color-main {
+    color: var(--color-main) !important;
+}
+
+.border-main {
+    border-color: var(--color-main) !important;
+}
+
+.bg-main {
+    background-color: var(--color-main) !important;
+    border-color: var(--color-main) !important;
+}
+
+.hover-main:hover {
+    color: var(--color-main) !important;
+}
+
+
+.color-blue1 {
+    color: var(--color-blue1) !important;
+}
+
+.border-blue1 {
+    border-color: var(--color-blue1) !important;
+}
+
+.bg-blue1 {
+    background-color: var(--color-blue1) !important;
+}
+
+.color-orange1 {
+    color: var(--color-orange1) !important;
+}
+
+.border-orange1 {
+    border-color: var(--color-orange1) !important;
+}
+
+.bg-orange1 {
+    background-color: var(--color-orange1) !important;
+}
+
+.hover-orange1:hover{
+    color: var(--color-orange1) !important;
+}
+
+.color-creamy1 {
+    color: var(--color-creamy1) !important;
+}
+
+.border-creamy1 {
+    border-color: var(--color-creamy1) !important;
+}
+
+.bg-creamy1 {
+    background-color: var(--color-creamy1) !important;
+}
+
+.hover-creamy1:hover{
+    color: var(--color-creamy1) !important;
+}
+
+.color-darkGray {
+    color: var(--color-darkGray) !important;
+}
+
+.border-darkgray {
+    border-color: var(--color-darkGray) !important;
+}
+
+.bg-darkgray {
+    background-color: var(--color-darkGray) !important;
+}
+
+.hover-darkgray:hover{
+    color: var(--color-darkGray) !important;
+}
+
+.color-blue2 {
+    color: var(--color-blue2) !important;
+}
+
+.border-blue2 {
+    border-color: var(--color-blue2) !important;
+}
+
+.bg-blue2 {
+    background-color: var(--color-blue2) !important;
+}
+
+.color-blue3 {
+    color: var(--color-blue3) !important;
+}
+
+.border-blue3 {
+    border-color: var(--color-blue3) !important;
+}
+
+.bg-blue3 {
+    background-color: var(--color-blue3) !important;
+}
+
+.hover-blue2:hover{
+    color: var(--color-blue2) !important;
+}
+
+.bg-gray1{
+    background-color: var(--bg-gray1) !important;
+}
+
+.bg-gray2{
+    background-color: var(--bg-gray2) !important;
+}
+
+.bg-gray3{
+    background-color: var(--bg-gray3) !important;
+}
+
+.bg-gray4{
+    background-color: var(--bg-gray4) !important;
+}
+
+.bg-dark1{
+    background-color: var(--bg-dark1) !important;
+}
+
+.filter-gray{
+    filter: grayscale(0.8);
+}
+
+// ---------- bootstrap colors ----------
+.text-danger {
+    color: #ed3410 !important;
+}
+
+.bg-danger {
+    background-color: #ed3410 !important;
+}
+
+.text-success {
+    color: #04bb00 !important;
+}
+
+.text-primary {
+    color: #148dfe !important;
+}
+
+.bg-primary {
+    background-color: #148dfe !important;
+}
+
+
+.bg-success {
+    background-color: #04bb00 !important;
+}
+
+.text-blue {
+    color: #451aff !important;
+}
+
+.bg-blue {
+    background-color: #451aff !important;
+}
+
+.text-orange {
+    color: #ff9a0a !important;
+}
+
+.bg-orange {
+    background-color: #ff9a0a !important;
+}
+
+.text-cyan {
+    color: #07e4c2 !important;
+}
+
+.bg-cyan {
+    background-color: #07e4c2 !important;
+}
+
+.text-purple {
+    color: #a914fe !important;
+}
+
+.bg-purple {
+    background-color: #a914fe !important;
+}
+
+.text-green {
+    color: #1db911 !important;
+}
+
+.bg-green {
+    background-color: #1db911 !important;
+}
+
+.text-darkBlue {
+    color: #161225 !important;
+}
+
+.bg-darkBlue {
+    background-color: #161225 !important;
+}
+
+.hover-underline{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.hover-color1{
+    &:hover{
+        color: var(--color-main) !important;
+    }
+}
+

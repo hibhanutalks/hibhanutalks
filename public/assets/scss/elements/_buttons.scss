@@ -1,0 +1,98 @@
+
+
+
+/* --------------- buttons styles --------------- */
+.butn,
+.btn {
+    padding: 12px 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 500;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    span {
+        // color: #fff;
+        font-size: 14px;
+        position: relative;
+        z-index: 2;
+        text-transform: capitalize;
+    }
+
+    small{
+        font-size: 12px;
+        position: relative;
+        z-index: 2;
+        text-transform: capitalize;
+    }
+
+    &.butn-gard {
+        &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 150%;
+            height: 100%;
+            z-index: 1;
+            background: linear-gradient(to right, #0c3df4 10%, #02b5ff 45%, #02b5ff, #0c3df4);
+            transition: all 0.3s ease;
+        }
+        &:hover {
+            &::before {
+                left: -50%;
+            }
+        }
+    }
+
+    &.dark_brdr_butn {
+        border: 1px solid #9995;
+        background: transparent;
+        span {
+            color: #000;
+        }
+        &.hover-orange1{
+            &:hover{
+                border: 1px solid var(--color-orange1) !important;
+                background: var(--color-orange1);
+                span {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    &.dark-butn {
+        background: #000;
+        span,
+        small {
+            color: #fff;
+        }
+    }
+
+      
+
+    &.sm-butn {
+        padding: 10px 25px;
+        span {
+            font-size: 12px;
+        }
+    }
+    &:hover{
+        background: var(--color-main);
+        border-color: transparent !important;
+        span{
+            color: #fff;
+        }
+    }
+
+    &.hover-shadow{
+        &:hover{
+            box-shadow: 5px 10px 5px #0002;
+        }
+    }
+
+}
+
+
