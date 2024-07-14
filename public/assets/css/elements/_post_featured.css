@@ -1,0 +1,15 @@
+.tc-featured-news-style8 {
+  background-color: #fff;
+  padding: 30px;
+  border-top: 5px solid var(--color-main); }
+  .tc-featured-news-style8 .tc-featured-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin-bottom: 30px; }

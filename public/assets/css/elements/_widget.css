@@ -1,0 +1,26 @@
+/* ----------  widget social ------------ */
+.tc-widget-social .social-card .icon {
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #9993;
+  background-color: red; }
+
+/* ----------  widget podcast ------------ */
+/* ----------  widget sponsored style 1 ------------ */
+/* ----------  widget sponsored style 2 ------------ */
+/* ----------  widget popular ------------ */
+/* ----------  widget box ------------ */
+/* ----------  widget survey ------------ */
+/* ----------  widget recent ------------ */
+/* ----------  widget subscribe ------------ */
+/* ----------  widget recent ------------ */

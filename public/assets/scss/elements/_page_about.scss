@@ -1,0 +1,256 @@
+/* ----------  about page style ------------ */
+.tc-about-page{
+
+    // ------------
+    .tc-about-header{
+        .content{
+            position: relative;
+            background-image: url(../img/about_page/header_back.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #000;
+                opacity: 0.7;
+            }
+
+            .title{
+                position: relative;
+                z-index: 10;
+                padding: 100px 0;
+                text-align: center;
+                text-transform: capitalize;
+            }
+
+            .links{
+                position: relative;
+                z-index: 10;
+                padding: 20px 0;
+                text-align: center;
+                border-top: 1px solid #fff3;
+                .icon{
+                    margin: 0 35px;
+                }
+                a{
+                    color: #bcbcbc;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: #fff;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    // ------------
+    .tc-about-about{
+        padding: 120px 0;
+        .img{
+            height: 450px;
+            max-height: 100vw;
+        }
+    }
+
+    // ------------
+    .tc-about-vision{
+        position: relative;
+        padding: 120px 0;
+        background-color: #f8f8f8;
+
+        .pattern{
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            max-width: 40%;
+            pointer-events: none;
+            object-fit: contain;
+        }
+
+        .btns{
+            padding-top: 40px;
+            border-top: 1px solid #9993;
+            display: flex;
+            align-items: center;
+
+            .vid_link{
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                border-radius: 50%;
+                background-color: var(--color-main);
+                color: #fff;
+                margin-inline-end: 20px;
+                flex-shrink: 0;
+                font-size: 20px;
+            }
+        }
+
+        .numbers-circles{
+
+            .circle-item{
+                width: 275px;
+                height: 275px;
+                border-radius: 50%;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .cont{
+                    width: 100%;
+                    text-align: center;
+
+                    p{
+                        font-size: 13px;
+                        color: #999;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
+                    }
+                    .number{
+                        font-size: 60px;
+                        color: #000;
+                        line-height: 1;
+                    }
+                }
+                
+
+                &:nth-of-type(2){
+                    width: 200px;
+                    height: 200px;
+                    background-color: #000;
+                    margin-left: 290px;
+                    margin-top: -140px;
+
+                    .cont{
+                        .number{
+                            color: #fff;
+                        }
+                    }
+                }
+
+                &:nth-of-type(3){
+                    width: 200px;
+                    height: 200px;
+                    background-color: var(--color-main);
+                    margin-left: 115px;
+                    margin-top: -40px;
+
+                    .cont{
+                        p{
+                            color: #fff;
+                        }
+                        .number{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    // ------------
+    .tc-about-team{
+        padding: 120px 0;
+
+        .team-card{
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            .img{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin-inline-end: 30px;
+                flex-shrink: 0;
+            }
+            .inf{
+                h6{
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                }
+                small{
+                    font-size: 13px;
+                    color: #999;
+                    margin-bottom: 0;
+                    display: block;
+                }
+                .tags{
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    display: block;
+                    width: max-content;
+                }
+            }
+        }
+    }
+
+    // ------------
+    .tc-about-history{
+        position: relative;
+        padding: 120px 0;
+        background-color: #000;
+
+        .history-card{
+            padding: 40px;
+            background-color: #fff;
+
+            a{
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: 500;
+                &:hover{
+                    color: var(--color-main);
+                }
+            }
+        }
+
+        .arrows{
+            position: relative;
+            display: flex;
+            // justify-content: flex-end;
+            .swiper-button-next,
+            .swiper-button-prev{
+                position: relative;
+                width: 40px;
+                height: 40px;
+                border: 1px solid #fff2;
+                border-radius: 50%;
+                opacity: 1;
+                margin-inline-start: 30px;
+                transition: all 0.3s ease;
+                &::after{
+                    font-size: 12px;
+                    color: #fff;
+                }
+                &:hover{
+                    border-color: var(--color-main);
+                    &::after{
+                        color: var(--color-main);
+                    }
+                }
+            }
+        }
+
+    }
+
+    // ------------
+    .tc-about-blog{
+        padding: 120px 0;
+    }
+
+
+}

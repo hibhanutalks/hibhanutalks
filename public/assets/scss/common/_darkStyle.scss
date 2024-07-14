@@ -1,0 +1,233 @@
+/* --------------- dark theme --------------- */
+.dark-theme{
+    background-color: #050b0f !important;
+    color: #eeeeee !important;
+
+    .dark-none{
+        display: none;
+    }
+    
+    .light-none{
+        display: block;
+    }
+
+    .bg-gray1,
+    .bg-gray3,
+    .tc-widget-tags-style5 .tags-content a ,
+    .tc-breaking-news-style5 .content,
+    .tc-breaking-news-style5 .content .breaking-body .arrows,
+    .bg-white,
+    .tc-featured-news-style8,
+    .tc-widget-social-style8,
+    .tc-widget-Popular-style8,
+    .tc-widget-standings-style8,
+    .tc-author-info-style1 .tc-author-card .content{
+        background-color: #06121a !important;
+    }
+
+    .bg-gray2{
+        background-color: #000 !important;
+    }
+
+    .color-000,
+    .tc-post-grid-style10 .info,
+    .form-control,
+    .tc-widget-recent-style2 .tc-widget-popular-list .item .info .title,
+    .tc-subscribe-style2 .sub-info h5,
+    .tc-popular-categories-style3 .category-card .title{
+        color: #eeeeee !important;
+    }
+
+    .color-666 {
+        color: #a9a3a3!important;
+    }
+
+    .brd-gray,
+    .form-control {
+        border-color: #fff2 !important;
+    }
+
+    .form-check-input,
+    .form-control {
+        background: #fff3;
+    }
+
+    .top-navbar.style-1 .date-weather .item .inf strong,
+    .navbar.style-1 .navbar-nav .nav-item .nav-link,
+    .tc-slider-style1 .swiper-button-next:after, .tc-slider-style1 .swiper-button-prev:after,
+    .navbar.style-1 .dropdown-menu .dropdown-item, .navbar.style-1 .dropdownMenu .dropdown-item,
+    .tc-trends-news-style1 .tc-stock-card .stock-card-body .stock-card-item .title,
+    .tc-trends-news-style1 .tc-stock-card .stock-card-title,
+    .tc-widget-popular-style1 .tc-widget-popular-list .item .info .title,
+    .tc-widget-survey-style1 .ques-title,
+    .tc-download-style1 .content .info .title,
+    .navbar.style-2 .navbar-nav .nav-item .nav-link,
+    .top-navbar.style-2 .date-weather .item .inf strong,
+    .tc-trends-news-slider2 .card-item .info .title,
+    .tc-widget-social-style2 .social-card .cont h6,
+    .navbar.style-4 .navbar-nav .nav-item .nav-link,
+    .top-navbar.style-4 .search-form .form-group .icon,
+    .navbar.style-5 .navbar-nav .nav-item .nav-link,
+    .top-navbar.style-5 .date-weather .item .inf strong,
+    .navbar.style-6 .navbar-nav .nav-item .nav-link,
+    .navbar.style-6 .side-navbar .icon-link i,
+    .tc-widget-social-style6 .item .icon i,
+    .tc-widget-categories-style6 .categories-content .item .icon-title .title,
+    .tc-post-grid-style7 .item .content h2.title,
+    .meta-bot,
+    .tc-popular-categories-style7 .category-content .cat-link,
+    .tc-post-grid-style7 .item .content .title,
+    .footer-style7 .tc-subscribe .sub-info h5,
+    .table,
+    .tc-widget-standings-style8 .form-select,
+    .info-text,
+    .tc-widget-social-style3 .social-card .cont h6{
+        color: #eeeeee !important;
+    }
+
+    .navbar.style-1 .dropdown-menu .dropdown-item, .navbar.style-1 .dropdownMenu .dropdown-item{
+        &:hover{
+            background-color: #050b0f;
+            color: var(--color-main);
+        }
+    }
+
+    .navbar.style-1 .navbarList-icon span,
+    .navbar.style-4 .navbar-nav .nav-item .nav-link::before,
+    .navbar.style-4 .navbarList-icon span{
+        background-color: #eeeeee;
+    }
+
+    .top-navbar.style-1 .sub-darkLight .darkLight-btn,
+    .tc-widget-survey-style1,
+    .tc-widget-sponsored-style1,
+    .tc-widget-tags-style2 .tags-content a,
+    .tc-posts-tabs-style3 .nav-pills,
+    .results-navbar .content .results-content .game-card .game-name,
+    .tc-widget-standings-style8 .table thead{
+        background-color: #000;
+    }
+
+    .top-navbar.style-1{
+        border-bottom: 1px solid #fff1;
+    }
+
+    .navbar.style-1{
+        border-bottom: 1px solid #fff9;
+    }
+
+    .footer-style1{
+        background-color: #000;
+        border-color: #fff9;
+        .content .link-group .f-link{
+            color: #999;
+        }
+
+        .content .info p b,
+        .content .link-group .title,
+        .tc-subscribe-style1 .sub-info h5,
+        .tc-subscribe-style1 .sub-form .form-group .form-control,
+        .content .info .social-links a{
+            color: #eeeeee;
+        }
+    }
+
+    .navbar.style-1 .dropdown-menu, .navbar.style-1 .dropdownMenu,
+    .footer-style1 .tc-subscribe-style1 .sub-form .form-group .form-control,
+    .footer-style1 .content .info .social-links a,
+    .sidebar-popup-style1,
+    .nav-search-style1 .form .form-group .form-control,
+    .tc-trends-news-style2 .content,
+    .tc-trends-news-slider2 .card-item .img .num,
+    .tc-slider-style1.slider-color-blue1 .swiper-button-next,
+    .tc-slider-style1.slider-color-blue1 .swiper-button-prev,
+    .tc-widget-tags-style2,
+    .tc-post-list-style3 .items .gary-item,
+    .tc-must-read-style6,
+    .tc-widget-survey-style6,
+    .tc-widget-standings-style8 .form-select{
+        background-color: #06121a !important;
+    }
+
+
+    .tc-trends-news-style1 .hot-trends-tabs-style1 .links .link,
+    .tc-post-list-style1 .tc-post-title-style1,
+    .tc-post-list-style1 .items,
+    .tc-trends-news-style1 .tc-stock-card,
+    .tc-post-overlay-default .img .tags,
+    .sidebar-popup-style1 .offcanvas-body .social-links a,
+    .sidebar-popup-style1 .offcanvas-body .sidebar-categories .cat-card .info .num,
+    .nav-search-style1,
+    .tc-post-grid-style2 .content{
+        background-color: #000;
+        color: #eeeeee;
+    }
+
+    .tc-download-style1 .content{
+        background-image: url(../img/download1_dark.png);
+    }
+
+    .tc-post-list-style2 .items .item,
+    .tc-post-list-style1 .items .item,
+    .tc-trends-news-style1 .tc-stock-card .stock-card-title,
+    .tc-trends-news-style1 .tc-stock-card .stock-card-body .stock-card-item,
+    .tc-widget-social-style6 .item .icon i,
+    .tc-breaking-news-style6 .content,
+    .tc-breaking-news-style6 .content .breaking-title{
+        border-color: #fff2!important;
+    }
+
+    .border-dark,
+    .tc-main-post-style1 .btm-share-post,
+    .tc-main-post-style2 .btm-share-post{
+        border-color: #fff !important;
+    }
+
+    .sidebar-popup-style1 .btn-close,
+    .navbar-light .navbar-toggler-icon{
+        filter: invert(100%) sepia(0%) saturate(7470%) hue-rotate(350deg) brightness(102%) contrast(99%);
+    }
+
+    .footer-style2,
+    .tc-post-list-style4 .items,
+    .tc-post-list-style4 .items .item{
+        background-color: #050b0f;
+    }
+
+    .tc-post-grid-style4 .item .info .text,
+    .tc-post-grid-style4 .item .info a.more,
+    .tc-main-post-style1 .tc-main-post-content .info-text .lg-letter,
+    .tc-main-post-style2 .info-text .lg-letter{
+        color: #fff !important;
+    }
+
+    .tc-main-post-style1 .tc-main-post-content .quote-message-content .quote-message,
+    .tc-main-post-style2 .quote-message-content .quote-message{
+        background-color: #000;
+
+        &::after{
+            border-top: 40px solid #000;
+            border-right: 50px solid #000;
+        }
+    }
+
+    .tc-subscribe-style9{
+        background-color: #000;
+        .sub-info h5{
+            color: #fff !important;
+        }
+        .sub-form .form-group .form-control{
+            background-color: #fff2;
+        }
+    }
+
+    .tc-main-post-style2 .main-content-side .audio-content .title{
+        color: #000;
+    }
+
+    .tc-slider-style1.slider-color-orange1 .swiper-button-next, 
+    .tc-slider-style1.slider-color-orange1 .swiper-button-prev{
+        background-color: transparent;
+    }
+
+}

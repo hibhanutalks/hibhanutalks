@@ -1,0 +1,10 @@
+/* ----------  slider style-1 ------------ */
+.tc-slider-style1 {
+  position: relative; }
+  .tc-slider-style1 .swiper-button-next,
+  .tc-slider-style1 .swiper-button-prev {
+    width: 22px;
+    height: 20px;
+    border-radius: 5px; }
+
+/* ----------  slider style-2 ------------ */

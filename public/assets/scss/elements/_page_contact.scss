@@ -1,0 +1,76 @@
+/* ----------  blog author-details style ------------ */
+.tc-contact-page{
+    .tc-contact-info{
+        h2{
+            font-size: 48px;
+            line-height: 50px;
+        }
+        .social-icons{
+            a{
+                display: inline-flex;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background-color: #eff2f5;
+                color: #666;
+                margin-bottom: 10px;
+                font-size: 16px;
+                align-items: center;
+                justify-content: center;
+                &:hover{
+                    color: #fff;
+                    background-color: var(--color-main);
+                }
+            }
+        }
+    }
+
+    .tc-contact-slider{
+        position: relative;
+        
+        .swiper-button-next,
+        .swiper-button-prev{
+            width: 55px;
+            height: 60px;
+            background-color: #333;
+            &::after{
+                color: #fff;
+                font-size: 18px;
+            }
+
+            &:hover{
+                background-color: var(--color-main);
+            }
+        }
+
+        .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+            right: 50px;
+        }
+
+        .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+            left: 50px;
+        }
+
+        .swiper-pagination{
+            background: #333;
+            border-radius: 30px;
+            padding: 5px 15px;
+            bottom: 45px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+
+            .swiper-pagination-bullet{
+                width: 12px;
+                height: 12px;
+                margin: 3px;
+                background-color: #666;
+                opacity: 1;
+
+                &.swiper-pagination-bullet-active{
+                    background-color: var(--color-main);
+                }
+            }
+        }
+    }
+}

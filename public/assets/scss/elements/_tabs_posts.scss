@@ -1,0 +1,85 @@
+
+/* ----------  tabs_posts style-2 ------------ */
+.tc-posts-tabs-style2{
+    .nav-pills{
+        padding: 7px 10px;
+        border: 1px solid #9995;
+        border-radius: 30px;
+        margin-inline-start: 30px;
+        flex-shrink: 0;
+        .nav-link{
+            font-size: 12px;
+            color: #666;
+            background-color: transparent;
+            padding: 0;
+            margin: 0 15px;
+            text-transform: uppercase;
+            &.active{
+                color: var(--color-blue1);
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+/* ----------  tabs_posts style-3 ------------ */
+.tc-posts-tabs-style3{
+    .nav-pills{
+        padding: 7px 15px;
+        border: 1px solid #9995;
+        background-color: #fff;
+        border-radius: 30px;
+        margin-inline-start: 30px;
+        flex-shrink: 0;
+        .nav-link{
+            font-size: 12px;
+            color: #666;
+            background-color: transparent;
+            padding: 0;
+            margin: 0 7px;
+            text-transform: uppercase;
+            &.active{
+                color: var(--color-orange1);
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+/* ----------  tabs_posts style-4 ------------ */
+.tc-posts-tabs-style4{
+    .tc-tabs-head{
+        text-align: center;
+        border-bottom: 1px solid #9993;
+        a{
+            font-size: 14px;
+            text-transform: uppercase;
+            margin: 0 15px;
+            border-bottom: 3px solid transparent;
+            padding-bottom: 30px;
+
+            &.active,
+            &:hover{
+                font-weight: bold;
+                border-bottom: 3px solid #000;
+            }
+        }
+    }
+
+    .more{
+        text-align: center;
+        // margin-top: 40px;
+        a{
+            font-size: 16px;
+            text-transform: uppercase;
+            border: 1px solid #9993;
+            font-weight: bold;
+            padding: 12px 50px;
+
+            &:hover{
+                background-color: var(--color-creamy1);
+                border-color: var(--color-creamy1);
+            }
+        }
+    }
+}

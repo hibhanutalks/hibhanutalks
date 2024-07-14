@@ -1,9 +1,12 @@
 import React from 'react'
+import MiniHeader from './MiniHeader'
 
 const Header = () => {
   return (
-    <div>
-      <p> Header Component</p>
+    <div class="navbar-container">
+        <div class="container">
+           <MiniHeader />
+       </div>
     </div>
   )
 }

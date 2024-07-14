@@ -1,0 +1,524 @@
+/* ----------  tc-hot-videos-style1 ------------ */
+.tc-hot-videos-style1{
+    background-image: url(../img/videos/back1.png);
+    background-size: cover;
+    position: relative;
+    // background-attachment: fixed;
+    &::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.5;
+    }
+
+    .content{
+        position: relative;
+        z-index: 10;
+
+        .section-head{
+            display: flex;
+            padding: 15px 0;
+            border-bottom: 1px solid #fff5;
+            margin-bottom: 40px;
+            .nav-pills{
+                margin-inline-start: 50px;
+                .nav-item{
+                    .nav-link{
+                        color: #fff;
+                        padding: 0;
+                        margin: 0 15px;
+                        &.active{
+                            color: var(--color-main);
+                            background: transparent;
+                        }
+                    }
+                }
+            }
+        }
+
+        .tc-video-slider1{
+            position: relative;
+            .swiper-button-next,
+            .swiper-button-prev{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 1px solid #fff;
+                top: 5px;
+                margin: 0;
+                &::after{
+                    font-size: 13px;
+                    color: #fff;
+                }
+
+                &:hover{
+                    border-color: var(--color-main);
+                    &::after{
+                        color: var(--color-main);
+                    }
+                }
+            }
+
+            .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+                right: 30px;
+                left: auto;
+            }
+
+            .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+                right: 80px;
+                left: auto;
+            }
+            .slider-content{
+                position: relative;
+                padding-bottom: 100px;
+                padding-inline-end: 100px;
+                height: 650px;
+                min-height: max-content;
+                .sub-title{
+                    color: #fff;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                }
+                .title{
+                    color: #fff;
+                    font-size: 36px;
+                    letter-spacing: -1px;
+                    margin-top: 40px;
+                }
+                .meta-bot{
+                    color: #fff;
+                    font-size: 13px;
+                    margin-top: 50px;
+                }
+                .play-cont{
+                    margin-top: 50px;
+                    display: flex;
+                    align-items: center;
+                    color: #fff;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    i{
+                        color: #fff;
+                        background-color: var(--color-main);
+                        width: 85px;
+                        height: 60px;
+                        border-radius: 30px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 21px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* ----------  tc-hot-videos-style2 ------------ */
+.tc-hot-videos-style2{
+    position: relative;
+    background-image: url(../img/videos/back2.png);
+    background-size: cover;
+
+    &::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.4;
+    }
+
+    .main-content{
+        color: #fff;
+        .title{
+            color: #fff;
+            font-size: 48px;
+            margin-bottom: 40px;
+        }
+        .play-cont{
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            justify-content: center;
+            i{
+                color: #fff;
+                background-color: var(--color-blue1);
+                width: 85px;
+                height: 60px;
+                border-radius: 30px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 21px;
+            }
+        }
+    }
+
+    .tc-slider-style1 .swiper-button-next, .tc-slider-style1 .swiper-button-prev{
+        &:after{
+            color: #fff;
+            border-color: #fff;
+        }
+        &:hover{
+            background-color: var(--color-blue1);
+            border-color: var(--color-blue1);
+        }
+    }
+}
+
+
+/* ----------  tc-hot-videos-style5 ------------ */
+.tc-hot-videos-style5{
+    background-color: var(--color-darkGray);
+}
+
+
+/* ----------  tc-hot-videos-style8 ------------ */
+.tc-hot-videos-style8{
+    .tc-posts-tabs-style3{
+        color: #fff;
+        .nav-pills{
+            border-color: #fff;
+            .nav-link{
+                color: #fff;
+            }
+        }
+    }
+
+    .main-video{
+        .video-content{
+            video{
+                object-fit: cover;
+            }
+        }
+        .info{
+            color: #fff;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #fff1;
+            .tags{
+                a{
+                    position: relative;
+                    padding-left: 28px;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    &::after{
+                        position: absolute;
+                        content: "";
+                        left: 0;
+                        top: 4px;
+                        width: 20px;
+                        height: 9px;
+                        background-color: var(--color-main);
+                    }
+                }
+            }
+            h2.title{
+                font-size: 32px;
+            }
+            .text{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+/* ----------  tc-hot-videos-style9 ------------ */
+.tc-hot-videos-style9{
+    position: relative;
+    background-image: url(../img/latest/158.jpg);
+    background-size: cover;
+    background-position: center;
+
+    &::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.3;
+    }
+
+    .main-content{
+        color: #fff;
+        .title{
+            color: #fff;
+            font-size: 48px;
+            margin-bottom: 40px;
+        }
+        .play-cont{
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            justify-content: center;
+            i{
+                color: #fff;
+                background-color: var(--color-main);
+                width: 85px;
+                height: 60px;
+                border-radius: 30px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 21px;
+            }
+        }
+    }
+}
+
+
+/* ----------  tc-hot-videos-style10 ------------ */
+.tc-hot-videos-style10{
+    background-image: url(../img/latest/174.png);
+    background-size: cover;
+    position: relative;
+    // background-position: center;
+    &::after{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.2;
+    }
+
+    .content{
+        position: relative;
+        z-index: 10;
+
+        .section-head{
+            display: flex;
+            padding: 15px 0;
+            border-bottom: 1px solid #fff5;
+            margin-bottom: 40px;
+            .nav-pills{
+                margin-inline-start: 50px;
+                .nav-item{
+                    .nav-link{
+                        color: #fff;
+                        padding: 0;
+                        margin: 0 15px;
+                        &.active{
+                            color: var(--color-main);
+                            background: transparent;
+                        }
+                    }
+                }
+            }
+        }
+
+        .tc-video-slider1{
+            position: relative;
+            .swiper-button-next,
+            .swiper-button-prev{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: 1px solid #fff;
+                top: 5px;
+                margin: 0;
+                &::after{
+                    font-size: 13px;
+                    color: #fff;
+                }
+
+                &:hover{
+                    border-color: var(--color-main);
+                    &::after{
+                        color: var(--color-main);
+                    }
+                }
+            }
+
+            .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+                right: 30px;
+                left: auto;
+            }
+
+            .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+                right: 80px;
+                left: auto;
+            }
+            .slider-content{
+                position: relative;
+                padding-bottom: 100px;
+                padding-inline-end: 100px;
+                height: 650px;
+                min-height: max-content;
+                .sub-title{
+                    color: #fff;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                }
+                .title{
+                    color: #fff;
+                    font-size: 36px;
+                    letter-spacing: -1px;
+                    margin-top: 40px;
+                }
+                .meta-bot{
+                    color: #fff;
+                    font-size: 13px;
+                    margin-top: 50px;
+                }
+                .play-cont{
+                    margin-top: 50px;
+                    display: flex;
+                    align-items: center;
+                    color: #fff;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    i{
+                        color: #fff;
+                        background-color: var(--color-main);
+                        width: 85px;
+                        height: 60px;
+                        border-radius: 30px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 21px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* ----------  tc-hot-videos-style11 ------------ */
+.tc-hot-videos-style11{
+    .video-card{
+        position: relative;
+        overflow: hidden;
+        border-radius: 30px;
+        &::after{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.4;
+        }
+        .img{
+            position: relative;
+            height: 820px;
+            .info{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50% , -50%) scale(0.5);
+                color: #fff;
+                z-index: 10;
+                text-align: center;
+                width: 100%;
+                opacity: 0;
+                filter: blur(10px);
+                transition: all 0.7s ease;
+                transition-delay: 0.7s;
+                h2.title{
+                    font-size: 60px;
+                    margin-bottom: 40px;
+                }
+                .play-cont{
+                    margin-top: 50px;
+                    display: flex;
+                    align-items: center;
+                    color: #fff;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    justify-content: center;
+                    i{
+                        color: #fff;
+                        background-color: var(--color-main);
+                        width: 85px;
+                        height: 60px;
+                        border-radius: 30px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 21px;
+                    }
+                }
+            }
+        }
+    }
+    .tc-hot-videos-slider11{
+        .swiper-container{
+            position: relative;
+            .swiper-button-next,
+            .swiper-button-prev{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: #55555588;
+                &::after{
+                    font-size: 20px;
+                    color: #fff;
+                }
+                &:hover{
+                    background-color: var(--color-main);
+                }
+            }
+            .swiper-button-next{
+                right: 50px;
+            }
+            .swiper-button-prev{
+                left: 50px;
+            }
+            .swiper-slide-active{
+                .video-card{
+                    .img{
+                        .info{
+                            opacity: 1;
+                            filter: blur(0);
+                            transform: translate(-50% , -50%) scale(1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .butn{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 70px;
+        margin-top: 80px;
+        border-radius: 50px;
+        span{
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        &:hover{
+            background-color: var(--color-main);
+        }
+    }
+}
