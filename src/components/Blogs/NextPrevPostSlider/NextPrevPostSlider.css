@@ -1,0 +1,35 @@
+/* src/components/NextPrevPostSlider.css */
+.tc-next-prev-post .tc-next-prev-post-slider {
+    position: relative;
+}
+
+.tc-next-prev-post .swiper-container {
+    padding: 20px 0;
+}
+
+.tc-next-prev-post .swiper-slide .item {
+    display: block;
+    text-align: center;
+}
+
+.tc-next-prev-post .color-666 {
+    color: #666666;
+}
+
+.tc-next-prev-post .fsz-12px {
+    font-size: 12px;
+}
+
+.tc-next-prev-post .text-uppercase {
+    text-transform: uppercase;
+}
+
+.tc-next-prev-post .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000;
+}

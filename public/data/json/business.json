@@ -1,0 +1,53 @@
+{
+    "mainPost": {
+      "image": "assets/img/bussines/1.png",
+      "category": "business",
+      "title": "Become master of strategy from playing chess",
+      "description": "The social-media company is in discussions to sell itself to Elon, a dramatic turn of events just 11 days [...]",
+      "date": "Dec 14, 2022",
+      "author": "Admin",
+      "comments": 55,
+      "link": "page-single-post-creative.html"
+    },
+    "sidebarPosts": [
+      {
+        "image": "assets/img/bussines/2.png",
+        "category": "business",
+        "title": "Horseback Riding, A business-class hobby",
+        "link": "page-single-post-creative.html"
+      },
+      {
+        "image": "assets/img/bussines/3.png",
+        "category": "business",
+        "title": "The Financial statements of ABC Bank are questionable",
+        "link": "page-single-post-creative.html"
+      }
+    ],
+    "bottomPosts": [
+      {
+        "image": "assets/img/bussines/4.png",
+        "category": "business",
+        "title": "Global financial markets after covid 2022",
+        "link": "page-single-post-creative.html"
+      },
+      {
+        "image": "assets/img/bussines/5.png",
+        "category": "business",
+        "title": "U.S Stocks Market today",
+        "link": "page-single-post-creative.html"
+      },
+      {
+        "image": "assets/img/bussines/6.png",
+        "category": "business",
+        "title": "Stock Market meltdowns have FAANGs looking increasingly toothless",
+        "link": "page-single-post-creative.html"
+      },
+      {
+        "image": "assets/img/bussines/7.png",
+        "category": "business",
+        "title": "Success Stories of Starbucks",
+        "link": "page-single-post-creative.html"
+      }
+    ]
+  }
+  

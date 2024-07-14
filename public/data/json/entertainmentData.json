@@ -1,0 +1,33 @@
+{
+    "section": {
+      "link": "page-blog.html",
+      "title": "Entertainment",
+      "posts": [
+        {
+          "image": "assets/img/another_news/4.png",
+          "alt": "Art Works",
+          "category": "Entertainment",
+          "title": "Logan Cee's Best Contemporary Art Works",
+          "postLink": "page-single-post-creative.html",
+          "description": "Crime rates on trains and buses are up in some of the nation’s biggest [...]",
+          "date": "Dec 14, 2022",
+          "comments": "7"
+        },
+        {
+          "image": "assets/img/another_news/5.png",
+          "alt": "Netflix Policy Change",
+          "category": "Entertainment",
+          "title": "Netflix change their policy for package family",
+          "postLink": "page-single-post-creative.html"
+        },
+        {
+          "image": "assets/img/another_news/6.png",
+          "alt": "Black Vinyl Record",
+          "category": "Entertainment",
+          "title": "Buy black vinyl record at Festival Oldschool market",
+          "postLink": "page-single-post-creative.html"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "section": {
+      "link": "page-blog.html",
+      "title": "Travel",
+      "posts": [
+        {
+          "image": "assets/img/another_news/7.png",
+          "alt": "Hot Springs",
+          "category": "Travel",
+          "title": "Top 10 Most beautiful hot springs in the world",
+          "postLink": "page-single-post-creative.html",
+          "description": "Crime rates on trains and buses are up in some of the nation’s biggest [...]",
+          "date": "Dec 14, 2022",
+          "comments": "7"
+        },
+        {
+          "image": "assets/img/another_news/8.png",
+          "alt": "Visa Card",
+          "category": "Travel",
+          "title": "Experience in applying for a visa card for newcomers",
+          "postLink": "page-single-post-creative.html"
+        },
+        {
+          "image": "assets/img/another_news/9.png",
+          "alt": "Sea Vibe",
+          "category": "Travel",
+          "title": "Release yourself on the sea and get the vibe chill",
+          "postLink": "page-single-post-creative.html"
+        }
+      ]
+    }
+  }
+  

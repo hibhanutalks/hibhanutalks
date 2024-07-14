@@ -1,0 +1,63 @@
+.tc-google-stories-style1 {
+    position: relative;
+  }
+  
+  .carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .carousel-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-wrapper.blockview {
+    display: flex !important;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 16.66%; /* 100% / 6 items = 16.66% */
+    max-width: 16.66%; /* Ensure items fit in a row */
+    box-sizing: border-box;
+    padding: 0 10px; /* Adjust padding as needed */
+  }
+  
+  .carousel-button {
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-button.prev {
+    left: 0;
+  }
+  
+  .carousel-button.next {
+    right: 0;
+  }
+  
+  .carousel-button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-slide {
+      flex: 0 0 50%; /* 2 items per row for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-slide {
+      flex: 0 0 100%; /* 1 item per row for very small screens */
+    }
+  }
+  

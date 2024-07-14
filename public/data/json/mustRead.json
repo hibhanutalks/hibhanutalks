@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "image": "assets/img/must_read/1.png",
+      "category": "Sport",
+      "title": "Manoah dominates, closes in on Blue Jays history",
+      "description": "The social-media company is in discussions to sell itself to Elon, a dramatic turn of events just 11 days [...]",
+      "date": "Dec 14, 2022",
+      "author": "Admin",
+      "comments": 55,
+      "link": "page-single-post-creative.html"
+    },
+    {
+      "id": 2,
+      "image": "assets/img/must_read/2.png",
+      "category": "business",
+      "title": "Sponsored Content Post with Double line",
+      "link": "page-single-post-creative.html"
+    },
+    {
+      "id": 3,
+      "image": "assets/img/must_read/3.png",
+      "category": "culture",
+      "title": "Discovery the culture of Japan. Oriental beauty & the legend of Samurai",
+      "link": "page-single-post-creative.html"
+    },
+    {
+      "id": 4,
+      "image": "assets/img/must_read/4.png",
+      "category": "technology",
+      "title": "Tiktok will pass Facebook?",
+      "link": "page-single-post-creative.html"
+    }
+  ]
+  

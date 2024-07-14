@@ -1,0 +1,52 @@
+{
+  "mainTitle": "Lifestyle",
+  "posts": [
+      {
+          "title": "Hotdog styles on 20 countries",
+          "category": "Lifestyle",
+          "image": "assets/img/lifestyle/1.png",
+          "description": "The social-media company is in discussions to sell itself to Elon, a dramatic turn of events just 11 days after the [...]",
+          "date": "Dec 14, 2022",
+          "author": "Admin",
+          "comments": 55
+      },
+      {
+          "title": "Grand Pera Coffee",
+          "category": "Lifestyle",
+          "image": "assets/img/lifestyle/2.png",
+          "description": "Crime rates on trains and buses are up in some of the nation’s biggest [...]",
+          "date": "Dec 14, 2022",
+          "comments": 7
+      },
+      {
+          "title": "Top 10 Best of Mustache for Hipster 2022",
+          "category": "Lifestyle",
+          "image": "assets/img/lifestyle/3.png"
+      },
+      {
+          "title": "Dad and “his son”",
+          "category": "Lifestyle",
+          "image": "assets/img/lifestyle/4.png"
+      },
+      {
+          "title": "The fashion trend for “old guys”",
+          "category": "Lifestyle",
+          "image": "assets/img/lifestyle/5.png"
+      },
+      {
+          "title": "10 Best of Scadinavia Interior styles",
+          "category": "Lifestyle",
+          "image": "assets/img/lifestyle/7.png"
+      },
+      {
+          "title": "How to make a toast with burberry",
+          "category": "Lifestyle",
+          "image": "assets/img/lifestyle/8.png"
+      },
+      {
+          "title": "Enhance water in your body with Boxed Water",
+          "category": "Lifestyle",
+          "image": "assets/img/lifestyle/9.png"
+      }
+  ]
+}

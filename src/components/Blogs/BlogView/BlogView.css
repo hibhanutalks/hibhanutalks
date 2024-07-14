@@ -1,0 +1,85 @@
+/* src/components/BlogView.css */
+.tc-main-post-style1 {
+    padding-bottom: 60px;
+}
+
+.tc-main-post-title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tc-main-post-title .title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.meta-nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.author-side {
+    display: flex;
+    align-items: center;
+}
+
+.author-side .author {
+    display: flex;
+    align-items: center;
+}
+
+.author-side .author .icon-30 img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.tc-main-post-img img {
+    width: 100%;
+    height: auto;
+}
+
+.share-icons{
+    display: grid;
+}
+.sharing .share-icons a {
+    margin-right: 10px;
+    color: #000;
+    
+}
+
+.quote-message-content .quote-message {
+    display: flex;
+    align-items: center;
+}
+
+.quote-message .icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.quote-message .info {
+    margin-left: 15px;
+}
+
+.quote-message .info h3 {
+    margin: 0;
+}
+
+.info-text img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-text {
+    color: #000;
+}
+
+.color-main {
+    color: #5D46FD; /* Replace with your main color */
+}
+
+.text-primary {
+    color: #FE6F3D; /* Replace with your primary color */
+}

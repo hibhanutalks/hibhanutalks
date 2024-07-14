@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "category": "politics",
+      "title": "Biden asks Congress for $33 billion to support Ukraine",
+      "image": "assets/img/latest/1.png",
+      "date": "Dec 14, 2022",
+      "author": "Admin",
+      "comments": 55,
+      "link": "page-single-post-features.html",
+      "videoLink": "https://youtu.be/pGbIOC83-So?t=21"
+    },
+    {
+      "id": 2,
+      "category": "politics",
+      "title": "Disputes in the South China Sea show no sign of ending",
+      "image": "assets/img/latest/3.png",
+      "link": "page-single-post-creative.html"
+    },
+    {
+      "id": 3,
+      "category": "sport",
+      "title": "Live of MLB Baseball 2022: NY Yankees Vs NY Mets",
+      "image": "assets/img/latest/4.png",
+      "link": "page-single-post-creative.html"
+    },
+    {
+      "id": 4,
+      "category": "lifestyle",
+      "title": "Paddling in Miami Beach",
+      "image": "assets/img/latest/5.png",
+      "link": "page-single-post-creative.html"
+    },
+    {
+      "id": 5,
+      "category": "business",
+      "title": "Stock market in last week: \"The strength of bulls\"",
+      "image": "assets/img/latest/6.png",
+      "link": "page-single-post-creative.html"
+    },
+    {
+      "id": 6,
+      "category": "lifestyle",
+      "title": "Stock market in last week: \"The strength of bulls\"",
+      "image": "assets/img/latest/7.png",
+      "link": "page-single-post-creative.html"
+    },
+    {
+      "id": 7,
+      "category": "lifestyle",
+      "title": "Helm Extract Infuse cream, 1000mg Full spectrum",
+      "image": "assets/img/latest/8.png",
+      "link": "page-single-post-creative.html"
+    }
+  ]
+  
