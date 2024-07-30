@@ -21,7 +21,7 @@ const Home = () => {
         <HotVideos />
         <LifestyleSection />
         <OtherSections />
-        <DownloadSection />
+       {/* <DownloadSection /> */} 
       </main>
     </div>
   )
