@@ -1,8 +1,8 @@
 import React from 'react'
-
+import { WEBSITE_EMAIL, WEBSITE_EMAILTAG, X, YT, FB, IN, LI, ME } from '../constants/constants'
 const MiniFooter = () => {
   return (
-<div className="content">
+    <div className="content">
       <div className="row gx-lg-5">
         <div className="col-lg-4">
           <div className="info">
@@ -11,19 +11,22 @@ const MiniFooter = () => {
               <img src="assets/img/logo_home1_lt.png" alt="" className="light-none" />
             </div>
             <div className="data-info">
+              <p><b> Email : </b> <a href= { WEBSITE_EMAILTAG }>{ WEBSITE_EMAIL }</a></p>
+              {/* 
               <p><b>Operated by : </b> ThemesCamp Company, Inc.</p>
               <p><b> Tax Code: </b> 0514234567</p>
               <p><b> Address: </b> 223 Thatcher Road St, Mahattan <br /> NY 10632, United States</p>
-              <p><b> Email : </b> support@Newzin.com</p>
               <p><b> Phone : </b> (+051) 3235 68 69</p>
               <p>License No. 12/AB-BCDEF, Signed on <br /> January 29, 2022</p>
+              */}
             </div>
             <div className="social-links">
-              <a href="#"><i className="la la-twitter"></i></a>
-              <a href="#"><i className="la la-facebook-f"></i></a>
-              <a href="#"><i className="la la-instagram"></i></a>
-              <a href="#"><i className="la la-youtube"></i></a>
-              <a href="#"><i className="la la-spotify"></i></a>
+              <a href={ YT }><i className="la la-youtube"></i></a>
+              <a href={ FB }><i className="la la-facebook-f"></i></a>
+              <a href={ IN }><i className="la la-instagram"></i></a>             
+              <a href={ LI }><i className="la la-linkedin"></i></a>
+              <a href={ ME }><i className="la la-medium"></i></a>
+              <a href={ X }><i className="la la-twitter"></i></a>
             </div>
           </div>
         </div>
